@@ -1,0 +1,56 @@
+*{
+    font-family:'roboto', sans-serif;
+}
+
+.footer {
+    text-align:center;
+    text-justify:center;
+    background-color:#1F2937;
+    color:white;
+    /*needs some more padding*/
+    padding:40px;
+}
+
+.h1{
+    font-size:48px;
+    font-weight:extra-bold;
+    color:#f9FAF8
+}
+
+.header{
+    display:flex;
+    align-content:center;
+    justify-content:space-between;
+    background:#1F2937;
+    padding: 15px 50px;
+}
+
+.logo{
+    font-size:24px;
+    color:#F9FAF8;
+    font-weight:bold;
+}
+
+.headerlinks{
+    display:flex;
+    padding-left:10px;
+    padding-right:10px;
+    justify-content:space-between;
+    font-size:18px;
+    color:#e5E7EB;
+    gap:20px;
+}
+
+.section1{
+    padding-top:50px;
+    display:flex;
+    background-color:#1F2937;
+    color:white;
+    flex-wrap:wrap;
+    flex-grow:0;
+}
+
+.section1right{
+    background-color:grey;
+    align-content:center;
+}
