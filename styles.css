@@ -46,19 +46,39 @@
     display:flex;
     background-color:#1F2937;
     color:white;
-    flex-wrap:wrap;
     flex-grow:0;
 }
 
 .section1right{
     background-color:grey;
     align-content:center;
+    min-width:50%;
+    text-align:center;
 }
 
+.info{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+
+}
 .infoheader{
     font-size:36px;
     font-weight:800;
     color:#1F2937;
+}
+.infoitems{
+    display:flex;
+    flex-direction:row;
+    max-width:700px;
+    justify-content:center;
+}
+
+.box{
+    border:2px solid #3882F6;
+    width:100px;
+    height:100px;
+    border-radius:8px;
 }
 
 .quote{
@@ -67,4 +87,10 @@
     font-weight:light;
     font-style:italic;
     color:#1F2937;
+}
+
+.button{
+    background-color:#3882F6;
+    max-width:100px;
+    border-radius:5px;
 }
